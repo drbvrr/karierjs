@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F7F7F7;
+    padding: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    height: auto;
+}
+.content-section {
+    display: none;
+}
+
+/* _________ текст вверху _________ */
+#top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vw;
+    padding: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 1000;
+}
+#zavod {
+    font-weight: 600;
+    font-size: 1vw;
+    width: 10.3vw;
+}
+#karier {
+    font-weight: 600;
+    font-size: 1vw;
+}
+#search {
+    background-image: url(../images/поиск.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 10.3vw;
+    height: 2.3vw;
+}
+/* _________ заголовок и кнопка _________ */
+#offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: 54vw;
+    padding-top: 7.4vw;
+    justify-content: flex-start;
+}
+.h1 {
+    font-weight: 500;
+    font-size: 3.6vw;
+    text-align: center;
+    margin-top: 7.7vw;
+}
+#descriptor {
+    font-weight: 500;
+    font-size: 1.4vw;
+    text-align: center;
+    margin-top: 1.8vw;
+}
+.button {
+    background-color: #232323;
+    width: 12.8vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 4vw;
+    color: #F7F7F7;
+    font-weight: 500;
+    font-size: 1vw;
+}
+/* _________ меню внизу _________ */
+#menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 9vw;
+    display: flex;
+    padding: 1.5vw;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+#warn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 6vw;
+    width: 20vw;
+}
+.text {
+    color: #AAAAAA;
+    font-weight: 500;
+    font-size: 1vw;
+}
+#logo {
+    width: 5vw;
+    height:2vw;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+#buttons {
+    display: flex; 
+    flex-direction: row; 
+    gap: 0.7vw;
+}
+#buttons .button {
+    background-color: #EEEEEE;
+    border: none;
+    color: black;
+}
+#author p {
+    color: #AAAAAA;
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: right;
+    width: 20vw;
+}
+/* _________ гарантия и камни _________ */
+#garant {
+    width: 100%;
+    height: 62vw;
+    background-image: url(../images/garant.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    position: relative;
+}
+#stone1 {
+    position: absolute;
+    width: 15vw;
+    top: 7.4vw;
+    left: 15.5vw;
+}
+#stone2 {
+    position: absolute;
+    width: 17vw;
+    top: 21.4vw;
+    left: 10.5vw;
+}
+#stone3 {
+    position: absolute;
+    width: 11vw;
+    top: 37.8vw;
+    left: 20.5vw;
+}
+#stone4 {
+    position: absolute;
+    width: 11vw;
+    top: 8.2vw;
+    left: 63.5vw;
+}
+#stone5 {
+    position: absolute;
+    width: 10vw;
+    top: 18.7vw;
+    left: 73.9vw;
+}
+#stone6 {
+    position: absolute;
+    width: 19vw;
+    top: 28.7vw;
+    left: 68.9vw;
+}
+#stone7 {
+    position: absolute;
+    width: 38vw;
+    top: 9.7vw;
+    left: 29.9vw;
+}
+#aboutus {
+    font-weight: 500;
+    font-size: 3.6vw;
+    text-align: center;
+    position: absolute;
+    left: 44vw;
+    bottom: 0vw;
+}
+/* _________ О нас _________ */
+#us {
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 3.9vw;
+}
+.advantages {
+    height: 30vw;
+    background-color: #EEEEEE;
+    width: 32vw;
+    padding: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.adv {
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+.advantages img {
+    width: 100%;
+}
+/* _________ Секция 2 _________ */
+#catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 0; 
+    padding: 7.4vw 0 0;
+    overflow: visible;
+    box-sizing: border-box;
+    flex: 1;
+}
+#goods {
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5.2vw;
+}
+.good {
+    height: 17vw;
+    width: 15.8vw;
+    padding: 1.5vw;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#longgood {
+    height: 27vw !important;
+}
+#main {
+    overflow-y: scroll !important;
+    height: 162vw;
+}
+/* _________ Секция 3 _________ */
+#section3 {
+    position: relative;
+    height: 40vw;
+    padding-bottom: 2vw;
+}
+#photo {
+    background-image: url(../images/photo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60vw;
+    height: 32vw;
+    position: absolute;
+    left: -3vw;
+    top: 10vw;
+}
+#section3 .h1 {
+    text-align: left !important;
+    position: absolute;
+    left: 52.6vw;
+    top: 4vw;
+}
+#section3 .text:nth-of-type(2) {
+    position: absolute;
+    color: #232323;
+    left: 52.6vw;
+    top: 22.3vw;
+}
+#section3 .text:nth-of-type(3) {
+    position: absolute;
+    left: 60.6vw;
+    top: 22.3vw;
+}
+#section3 .text:nth-of-type(4) {
+    position: absolute;
+    color: #232323;
+    left: 52.6vw;
+    top: 27.3vw;
+}
+#section3 .text:nth-of-type(5) {
+    position: absolute;
+    left: 60.6vw;
+    top: 27.3vw;
+}
+#section3 .button {
+    position: absolute;
+    left: 52.6vw;
+    top: 30.3vw;
+}
+/* секции и переключение между ними */
+.content-section {
+    display: none;
+}
+#main {
+    display: block;
+}
+#buttons .button {
+    background-color: #EEEEEE;
+    color: black;
+}
+#buttons .button.active {
+    background-color: #9EF5FF !important;
+    color: rgb(0, 0, 0) !important;
+}
