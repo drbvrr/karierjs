@@ -128,4 +128,14 @@ document.addEventListener('DOMContentLoaded', function() {
             moveButtonRandomly(this);
         });
     }
+    // ... (весь предыдущий код остается без изменений) ...
+
+    // Код для исчезновения карточек товаров
+    const goods = document.querySelectorAll('.good');
+    
+    goods.forEach(good => {
+        good.addEventListener('click', function() {
+            this.style.display = 'none';
+        });
+    });
 });
