@@ -1,0 +1,141 @@
+/* adaptive.css - мобильная версия (до 768px) */
+@media (max-width: 768px) {
+    /* Общие стили */
+    body {
+        padding: 3vw;
+        background-size: auto 100%;
+    }
+    /* Шапка */
+    #top {
+        height: 8vw;
+        padding: 3vw;
+    }
+    .text {
+        font-size: 2.5vw;
+    }
+    #karier {
+        font-size: 2.5vw;
+    }
+    #main {
+        height: 470vw;
+    }
+    #zavod {
+        width: 30vw;
+        font-size: 2.5vw;
+    }
+    #search {
+        display: none !important;
+    }
+    /* Главная секция */
+    #offer {
+        height: auto;
+        padding-top: 15vw;
+        margin-bottom: 30vw;
+    }
+    .h1 {
+        font-size: 6vw;
+        margin-top: 15vw;
+    }
+    #descriptor {
+        font-size: 3vw;
+        margin-top: 3vw;
+    }
+    .button {
+        width: 30vw;
+        height: 8vw;
+        font-size: 3vw;
+        margin-top: 6vw;
+    }
+
+    /* Гарантия и камни */
+    #garant {
+        height: 100vw;
+    }
+    #stone1 { width: 25vw; top: 10vw; left: 5vw; }
+    #stone2 { width: 28vw; top: 30vw; left: 2vw; }
+    #stone3 { width: 20vw; top: 55vw; left: 10vw; }
+    #stone4 { width: 20vw; top: 12vw; left: 65vw; }
+    #stone5 { width: 18vw; top: 28vw; left: 75vw; }
+    #stone6 { width: 30vw; top: 45vw; left: 65vw; }
+    #stone7 { width: 50vw; top: 15vw; left: 25vw; }
+    #aboutus {
+        font-size: 6vw;
+        left: 35vw;
+    }
+
+    /* О нас */
+    #us {
+        flex-direction: column;
+        height: auto;
+        gap: 5vw;
+        margin-top: 10vw;
+    }
+    .advantages {
+        width: 100%;
+        height: 80vw;
+        padding: 4vw;
+    }
+    .adv {
+        font-size: 3vw;
+    }
+    /* Каталог */
+    #goods {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 3vw;
+        justify-content: center;
+    }
+    .good {
+        width: 45vw;
+        height: 45vw;
+    }
+    #longgood {
+        height: 45vw !important;
+    }
+
+    /* Карточка товара */
+    #section3 {
+        height: auto;
+        padding: 5vw;
+        margin-top: 10vw;
+    }
+    #photo {
+        width: 80vw;
+        height: 50vw;
+        position: static;
+        margin: 0 auto 5vw;
+    }
+    #section3 .h1,
+    #section3 .text,
+    #section3 .button {
+        position: static !important;
+        text-align: center !important;
+        margin: 3vw auto;
+        width: 100%;
+    }
+    #section3 .button {
+        margin-top: 5vw;
+    }
+
+    /* Меню внизу */
+    #menu {
+        height: 15vw; 
+        padding: 2vw 3vw;
+        justify-content: center;
+        align-items: center;
+    }
+    #warn, #author {
+        display: none !important; 
+    }
+    #buttons {
+        width: 100%;
+        justify-content: space-around; 
+        gap: 2vw;
+    }
+    #buttons .button {
+        width: 30vw;
+        height: 10vw;
+        font-size: 3.5vw;
+        margin: 0;
+    }
+}
